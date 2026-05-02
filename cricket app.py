@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,p,label {
 # -----------------------------
 # GEMINI API CONFIG
 # -----------------------------
-genai.configure(api_key=os.getenv("AIzaSyD1NHJzVu5AtGceMHpyMA8eYJGpG2IdPW8"))
+genai.configure(api_key=os.getenv(""))
 
 # Gemini model
 model = genai.GenerativeModel("gemini-1.5-flash")
